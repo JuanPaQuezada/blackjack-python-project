@@ -11,10 +11,10 @@
 # The Translator in Your Computer: https://cpu.land/the-translator-in-your-computer
 
 # ------------------------- Libraries -------------------------
-
+from src.utils import get_center_padding, main
 
 # ------------------------- Functions -------------------------
-
+main()
 
 # ------------------------- Variables -------------------------
 
