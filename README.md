@@ -20,3 +20,5 @@
 **Juan Pablo Quezada** B.Sc. in Intelligent Computing Engineering Universidad Autónoma de Aguascalientes (UAA)
 
 **Jonathan Eduardo Rodriguez** B.Sc. in Intelligent Computing Engineering Universidad Autónoma de Aguascalientes (UAA)
+
+**Ian Christopher Hernández** B.Sc. in Intelligent Computing Engineering Universidad Autónoma de Aguascalientes (UAA)
