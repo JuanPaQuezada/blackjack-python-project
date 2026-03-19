@@ -9,3 +9,4 @@ def get_center_padding(text):
 
 def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')
+
