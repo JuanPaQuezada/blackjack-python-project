@@ -8,17 +8,6 @@ SYMBOLS = {
     'Picas': '♠'
 }
 
-class Card:
-    def __init__(self, simbol, suit, rank):
-        self.simbol = simbol
-        self.suit = suit
-        self.rank = rank
-
-    #@Jon agregar plantilla de cartas de forma dinamica 1 sola plantilla(1 sola carta)
-    def __str__(self):
-        print_cards(suit, rank)
-
-
 
 def get_center_padding(text):
     terminal_width = shutil.get_terminal_size().columns
