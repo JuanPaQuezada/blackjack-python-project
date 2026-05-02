@@ -11,6 +11,7 @@
 # The Translator in Your Computer: https://cpu.land/the-translator-in-your-computer
 
 # ------------------------- Libraries -------------------------
+from src.game import BlackjackGame
 from src.utils import get_center_padding,clear_screen
 import os
 from art import text2art
@@ -64,6 +65,12 @@ def main():
 
     pantallaPrincipal = Pantalla("BLACKJACK",choices)
     seccion = pantallaPrincipal.render()
+    return seccion
 
 if __name__ == "__main__":
-    main()
+    option=main()
+    if option=="Start":
+        new_game=BlackjackGame()
+        new_game.play()
+    elif option=="Exit":
+        print("Ending process...")
